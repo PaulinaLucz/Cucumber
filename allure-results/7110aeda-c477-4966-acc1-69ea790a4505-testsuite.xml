@@ -1,0 +1,118 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668543877840' stop='1668543884657'>
+    <name>Chceck key presses page: I can check key presses</name>
+    <title>Chceck key presses page: I can check key presses</title>
+    <test-cases>
+        <test-case start='1668543877841' status='passed' stop='1668543877842'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668543877842' status='passed' stop='1668543879570'>
+            <name>Given I am on the "key_presses" page</name>
+            <title>Given I am on the "key_presses" page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps>
+                <step start='1668543877843' status='passed' stop='1668543879568'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='cbc62bcc-f0d6-42ee-a47b-61403f3c91e2-attachment.json' type='application/json' size='61'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1668543879570' status='passed' stop='1668543884652'>
+            <name>When I chceck some elements</name>
+            <title>When I chceck some elements</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps>
+                <step start='1668543879571' status='passed' stop='1668543879586'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='880c424a-0212-4636-8190-4840dd49509d-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='a250a530-6875-4653-bcc6-91e8de1d8df7-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1668543879591' status='passed' stop='1668543879614'>
+                    <name>POST /session/:sessionId/element/12e83dcf-7b39-4ad0-b4a7-a123344d8f68/clear</name>
+                    <title>POST /session/:sessionId/element/12e83dcf-7b39-4ad0-b4a7-a123344d8f68/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668543879615' status='passed' stop='1668543879646'>
+                    <name>POST /session/:sessionId/element/12e83dcf-7b39-4ad0-b4a7-a123344d8f68/value</name>
+                    <title>POST /session/:sessionId/element/12e83dcf-7b39-4ad0-b4a7-a123344d8f68/value</title>
+                    <attachments>
+                        <attachment title='Request' source='ef88ceeb-c2dc-4e11-98ff-9eec3557c05f-attachment.json' type='application/json' size='17'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1668543884652' status='broken' stop='1668543884653'>
+            <name>Then I should see a names</name>
+            <title>Then I should see a names</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I should see a names" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I should see a names" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\pauli\Desktop\Evolution bootcamp\CodeScreen_1tfqajnk\features\key_presses.feature):1:1
+                	at Scenario(I can check key presses):4:3
+                	at Step(I should see a names):18:6
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668543884654' status='passed' stop='1668543884655'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

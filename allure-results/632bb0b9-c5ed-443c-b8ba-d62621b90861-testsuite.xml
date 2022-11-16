@@ -1,0 +1,132 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668543664907' stop='1668543671649'>
+    <name>Chceck key presses page: I can check key presses</name>
+    <title>Chceck key presses page: I can check key presses</title>
+    <test-cases>
+        <test-case start='1668543664907' status='passed' stop='1668543664908'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668543664909' status='passed' stop='1668543666547'>
+            <name>Given I am on the "key_presses" page</name>
+            <title>Given I am on the "key_presses" page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps>
+                <step start='1668543664910' status='passed' stop='1668543666546'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='0f13ef27-e9a0-480e-bce4-d3c1788429dd-attachment.json' type='application/json' size='61'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1668543666547' status='passed' stop='1668543671644'>
+            <name>When I chceck some elements</name>
+            <title>When I chceck some elements</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps>
+                <step start='1668543666548' status='passed' stop='1668543666561'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ba79cbca-3ebc-4d70-87ca-158eaef6be49-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='58ec9d06-c91f-4fdc-843d-cd2295c6b10a-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1668543666565' status='passed' stop='1668543666588'>
+                    <name>POST /session/:sessionId/element/a3fb708d-d9f8-42e4-9928-01d8147277a4/clear</name>
+                    <title>POST /session/:sessionId/element/a3fb708d-d9f8-42e4-9928-01d8147277a4/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668543666588' status='passed' stop='1668543666623'>
+                    <name>POST /session/:sessionId/element/a3fb708d-d9f8-42e4-9928-01d8147277a4/value</name>
+                    <title>POST /session/:sessionId/element/a3fb708d-d9f8-42e4-9928-01d8147277a4/value</title>
+                    <attachments>
+                        <attachment title='Request' source='3ed752f6-7df0-4ef5-bdc7-95affdd2ca1a-attachment.json' type='application/json' size='17'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1668543666624' status='passed' stop='1668543666632'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='5ba46f7c-359a-4383-b401-4fc86de8068c-attachment.json' type='application/json' size='249'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1668543666632' status='passed' stop='1668543666634'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1668543671644' status='broken' stop='1668543671646'>
+            <name>Then I should see a names</name>
+            <title>Then I should see a names</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I should see a names" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I should see a names" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\pauli\Desktop\Evolution bootcamp\CodeScreen_1tfqajnk\features\key_presses.feature):1:1
+                	at Scenario(I can check key presses):4:3
+                	at Step(I should see a names):18:6
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668543671646' status='passed' stop='1668543671647'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

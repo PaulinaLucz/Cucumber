@@ -1,0 +1,144 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668547718492' stop='1668547718496'>
+    <name>Add and remove page: I can add elements and remove elemnts</name>
+    <title>Add and remove page: I can add elements and remove elemnts</title>
+    <test-cases>
+        <test-case start='1668547718493' status='passed' stop='1668547718494'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668547718494' status='broken' stop='1668547718495'>
+            <name>Given I am on the "add_remove_elements/" page</name>
+            <title>Given I am on the "add_remove_elements/" page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I am on the "add_remove_elements/" page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I am on the "add_remove_elements/" page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\pauli\Desktop\Evolution bootcamp\CodeScreen_1tfqajnk\features\add-remove-elements.feature):1:1
+                	at Scenario(I can add elements and remove elemnts):8:1
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668547718495' status='broken' stop='1668547718495'>
+            <name>When I add elemnts with clic add elemnts</name>
+            <title>When I add elemnts with clic add elemnts</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I add elemnts with clic add elemnts" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I add elemnts with clic add elemnts" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\pauli\Desktop\Evolution bootcamp\CodeScreen_1tfqajnk\features\add-remove-elements.feature):1:1
+                	at Scenario(I can add elements and remove elemnts):8:1
+                	at Step(I add elemnts with clic add elemnts):9:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668547718495' status='broken' stop='1668547718495'>
+            <name>Then I should see a field saying delete</name>
+            <title>Then I should see a field saying delete</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I should see a field saying delete" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I should see a field saying delete" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\pauli\Desktop\Evolution bootcamp\CodeScreen_1tfqajnk\features\add-remove-elements.feature):1:1
+                	at Scenario(I can add elements and remove elemnts):8:1
+                	at Step(I should see a field saying delete):10:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668547718495' status='broken' stop='1668547718495'>
+            <name>When I delete elemnts with clic delete</name>
+            <title>When I delete elemnts with clic delete</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I delete elemnts with clic delete" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I delete elemnts with clic delete" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\pauli\Desktop\Evolution bootcamp\CodeScreen_1tfqajnk\features\add-remove-elements.feature):1:1
+                	at Scenario(I can add elements and remove elemnts):8:1
+                	at Step(I delete elemnts with clic delete):11:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668547718495' status='broken' stop='1668547718495'>
+            <name>Then I should desapir field saying delete</name>
+            <title>Then I should desapir field saying delete</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I should desapir field saying delete" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I should desapir field saying delete" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\pauli\Desktop\Evolution bootcamp\CodeScreen_1tfqajnk\features\add-remove-elements.feature):1:1
+                	at Scenario(I can add elements and remove elemnts):8:1
+                	at Step(I should desapir field saying delete):12:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668547718496' status='passed' stop='1668547718496'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

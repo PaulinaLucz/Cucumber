@@ -1,0 +1,126 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668511791102' stop='1668511791333'>
+    <name>Add and remove page: I can remove elements</name>
+    <title>Add and remove page: I can remove elements</title>
+    <test-cases>
+        <test-case start='1668511791102' status='passed' stop='1668511791103'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668511791103' status='passed' stop='1668511791269'>
+            <name>Given I am on the "add_remove_elements/" page</name>
+            <title>Given I am on the "add_remove_elements/" page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps>
+                <step start='1668511791103' status='passed' stop='1668511791269'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='2a0c8a55-50e3-429c-a4ba-24395e7e3a72-attachment.json' type='application/json' size='70'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1668511791269' status='passed' stop='1668511791330'>
+            <name>When I add elemnts with clic add elemnts and I delete elemnts with clic delete</name>
+            <title>When I add elemnts with clic add elemnts and I delete elemnts with clic delete</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps>
+                <step start='1668511791270' status='passed' stop='1668511791277'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d3bde452-21b3-48eb-acc1-df28e933c58f-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='070a7294-592e-414b-b2e4-84ad234f507c-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1668511791278' status='passed' stop='1668511791300'>
+                    <name>POST /session/:sessionId/element/a8240743-ccc0-4fda-97c3-6a6570a8a697/click</name>
+                    <title>POST /session/:sessionId/element/a8240743-ccc0-4fda-97c3-6a6570a8a697/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668511791301' status='passed' stop='1668511791309'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='15447fe1-b896-40ca-9745-a52c26337f97-attachment.json' type='application/json' size='62'/>
+                        <attachment title='Response' source='bf3ca62a-73b2-4259-ab86-b8fb61344e75-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1668511791310' status='passed' stop='1668511791330'>
+                    <name>POST /session/:sessionId/element/84d40027-3a9c-4bae-8c4f-f2c58d8c2ff1/click</name>
+                    <title>POST /session/:sessionId/element/84d40027-3a9c-4bae-8c4f-f2c58d8c2ff1/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1668511791331' status='broken' stop='1668511791332'>
+            <name>Then I should desapir field saying delete</name>
+            <title>Then I should desapir field saying delete</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: selector needs to be typeof `string` or `function`</message>
+                <stack-trace>Error: selector needs to be typeof `string` or `function`
+                    at Browser.findElement (C:\Users\pauli\Desktop\Evolution bootcamp\CodeScreen_1tfqajnk\node_modules\webdriverio\build\utils\index.js:254:11)
+                    at Browser.$ (C:\Users\pauli\Desktop\Evolution bootcamp\CodeScreen_1tfqajnk\node_modules\webdriverio\build\commands\browser\$.js:91:43)
+                    at Browser.wrapCommandFn (C:\Users\pauli\Desktop\Evolution bootcamp\CodeScreen_1tfqajnk\node_modules\@wdio\utils\build\shim.js:137:38)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async World.&lt;anonymous> (C:\Users\pauli\Desktop\Evolution bootcamp\CodeScreen_1tfqajnk\features\step-definitions\steps.js:38:17)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668511791332' status='passed' stop='1668511791332'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

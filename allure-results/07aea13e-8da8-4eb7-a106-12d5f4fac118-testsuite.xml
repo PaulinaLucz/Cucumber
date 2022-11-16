@@ -1,0 +1,120 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668516762734' stop='1668516768130'>
+    <name>Chceck boxes page: I can check boxes</name>
+    <title>Chceck boxes page: I can check boxes</title>
+    <test-cases>
+        <test-case start='1668516762734' status='passed' stop='1668516762734'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668516762735' status='passed' stop='1668516768019'>
+            <name>Given I am on the "checkboxes" page</name>
+            <title>Given I am on the "checkboxes" page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps>
+                <step start='1668516762735' status='passed' stop='1668516763007'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='0d5eedfb-d300-4df8-bcc0-e771c6fbdba9-attachment.json' type='application/json' size='60'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1668516768019' status='passed' stop='1668516768095'>
+            <name>When I clic 2</name>
+            <title>When I clic 2</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps>
+                <step start='1668516768020' status='passed' stop='1668516768041'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='88838a81-39a9-411e-801e-b571f55171ef-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='08b5cf08-b588-4965-a7cf-0a7ed710ed87-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1668516768042' status='passed' stop='1668516768094'>
+                    <name>POST /session/:sessionId/element/d61b6e5b-8b43-49cf-8202-e0dfedf89af1/click</name>
+                    <title>POST /session/:sessionId/element/d61b6e5b-8b43-49cf-8202-e0dfedf89af1/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1668516768095' status='passed' stop='1668516768129'>
+            <name>Then I should see a check</name>
+            <title>Then I should see a check</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps>
+                <step start='1668516768096' status='passed' stop='1668516768113'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='786836d4-995a-4948-93d7-343431c21165-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='862a05c3-aa44-44aa-9639-37e8d9700612-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1668516768115' status='passed' stop='1668516768128'>
+                    <name>GET /session/:sessionId/element/d61b6e5b-8b43-49cf-8202-e0dfedf89af1/selected</name>
+                    <title>GET /session/:sessionId/element/d61b6e5b-8b43-49cf-8202-e0dfedf89af1/selected</title>
+                    <attachments>
+                        <attachment title='Response' source='84b0c9bf-bffb-48ad-9e1f-db24b39ae090-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1668516768129' status='passed' stop='1668516768130'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
